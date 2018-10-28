@@ -92,7 +92,7 @@ def makeVocabulary(filename, size, char=False):
                             for ch in word:
                                 vocab.add(ch)
                         else:
-                            vocab.add(word + " ") # 为什么要加空格？？？？？？？？？？？？？？？？？？
+                            vocab.add(word + " ") 
     else:
         with open(filename) as f:
             for sent in f.readlines():
